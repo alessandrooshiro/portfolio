@@ -23,9 +23,30 @@ class NavBar extends Component {
                 </div>
                 <div className={styles.menuContainer}>
                     <ul style={{ listStyleType: 'none' }}>
-                        <li className={styles.menuItem}>About</li>
-                        <li className={styles.menuItem}>Projects</li>
-                        <li className={styles.menuItem}>Contact</li>
+                        <li
+                            className={styles.menuItem}
+                            onClick={() => window.scrollTo(0, 0)}
+                        >
+                            Top
+                        </li>
+                        <li
+                            className={styles.menuItem}
+                            onClick={() => window.scrollTo(0, 900)}
+                        >
+                            About
+                        </li>
+                        <li
+                            className={styles.menuItem}
+                            onClick={() => window.scrollTo(0, 2500)}
+                        >
+                            Projects
+                        </li>
+                        <li
+                            className={styles.menuItem}
+                            onClick={() => window.scrollTo(0, 7400)}
+                        >
+                            Contact
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -6,11 +6,6 @@ import params from './projects'
 import linkIcon from '../../images/linkIcon.png'
 
 class Projects extends Component {
-
-    state = {
-        isHoveredImage: false
-    }
-
     render() {
         return (
 
@@ -48,17 +43,13 @@ class Projects extends Component {
                                         {project.smallDescription}
                                     </Fade>
                                 </div>
-                                <div className={this.state.isHoveredImage ? styles.imageContainerHovered : styles.imageContainer}>
+                                <div className={styles.imageContainer}>
                                     <Fade bottom big>
                                         <img
-                                            onMouseOver={() => this.setState({ isHoveredImage: true })}
-                                            onMouseOut={() => this.setState({ isHoveredImage: false })}
                                             src={project.photoA}
                                             className={styles.projectImage1}
                                         />
                                         <img
-                                            onMouseOver={() => this.setState({ isHoveredImage: true })}
-                                            onMouseOut={() => this.setState({ isHoveredImage: false })}
                                             src={project.photoB}
                                             className={styles.projectImage2}
                                         />

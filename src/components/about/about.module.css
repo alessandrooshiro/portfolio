@@ -1,5 +1,3 @@
-
-
 .detailSection {
     position: absolute;
     top: 1000px;
@@ -15,7 +13,7 @@
 }
 
 .detailQuestion {
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     text-align: left;
     width: 50%;
     height: 400px;
@@ -29,7 +27,7 @@
 }
 
 .detailAnswer {
-    margin-bottom: 200px;
+    margin-bottom: 140px;
     text-align: left;
     width: 45%;
     height: 400px;
@@ -39,5 +37,5 @@
     color: rgb(241, 227, 202);
     font-family: futura-pt, sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
 }

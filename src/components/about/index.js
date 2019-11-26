@@ -35,6 +35,18 @@ class About extends Component {
                                 </Fade>
                     </span>
                 </div>
+                <div className={styles.detailDiv}>
+                    <span className={styles.detailQuestion}>
+                        <Fade bottom>
+                            Skills:
+                                </Fade>
+                    </span>
+                    <span className={styles.detailAnswer}>
+                        <Fade bottom>
+                            Photoshop • Illustrator • inDesign • Autocad • Sketchup • Vray • Twinmotion • Sketch • InVision • Figma <br/> HTML • CSS • JavaScript • React
+                                </Fade>
+                    </span>
+                </div>
             </div>
         )
     }

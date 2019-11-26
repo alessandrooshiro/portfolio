@@ -4,6 +4,7 @@ import NavBar from '../../components/navBar/index'
 import About from '../../components/about/index'
 import Fade from 'react-reveal/Fade'
 import Projects from '../../components/projects/index'
+import Contact from '../../components/contact/index'
 
 
 class ShowResults extends Component {
@@ -22,7 +23,7 @@ class ShowResults extends Component {
                     </span>
                     <button
                         className={styles.scrollButton}
-                        onClick={() => window.scrollTo(0, window.innerHeight)}
+                        onClick={() => window.scrollTo(0, 900)}
                     >
                         <span className={styles.moreInfo}>
                             v
@@ -30,6 +31,7 @@ class ShowResults extends Component {
                     </button>
                     <About />
                     <Projects />
+                    <Contact />
                 </div>
             </div >
         )
