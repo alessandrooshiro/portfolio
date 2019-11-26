@@ -39,7 +39,7 @@
 .detailQuestion {
     margin-bottom: 30px;
     text-align: left;
-    width: 100%;
+    width: 50%;
     left: 50%;
     float: left;
     position: relative;
@@ -53,14 +53,14 @@
 .detailAnswer {
     margin-bottom: 80px;
     text-align: left;
-    width: 100%;
-    left: 75%;
+    width: 25%;
+    left: 25%;
     float: left;
     position: relative;
-    top: 0px;
+    top: 40px;
     color: rgb(241, 227, 202);
     font-family: futura-pt, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
 }
 
