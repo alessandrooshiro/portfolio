@@ -31,7 +31,7 @@ class Projects extends Component {
                                             <a href={project.link} target="_blank" rel="noopener noreferrer">
                                                 {
                                                     project.link
-                                                        ? (<img src={linkIcon} className={styles.linkIcon} />)
+                                                        ? (<img src={linkIcon} className={styles.linkIcon} alt='link icon' />)
                                                         : (null)
                                                 }
                                             </a>
@@ -48,10 +48,12 @@ class Projects extends Component {
                                         <img
                                             src={project.photoA}
                                             className={styles.projectImage1}
+                                            alt='project A'
                                         />
                                         <img
                                             src={project.photoB}
                                             className={styles.projectImage2}
+                                            alt='project B'
                                         />
                                     </Fade>
                                 </div>

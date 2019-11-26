@@ -19,7 +19,7 @@ class Projects extends Component {
                 </span>
 
                 <Fade bottom>
-                    <img src={pic} className={styles.profilePic} />
+                    <img src={pic} className={styles.profilePic} alt='profile pic'/>
                 </Fade>
                 <div className={styles.detailSection}>
                     <div className={styles.detailDiv}>

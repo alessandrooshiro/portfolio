@@ -37,7 +37,7 @@ const projects = [
     smallDescription: "E-commerce mobile app, focused on the selling of furniture displaying (using Apple's ARKit) the products in Augmented Reality. I participated in this project as the lead UI/UX Designer.",
     link: null,
     photoA: FurnitureA,
-    photoB: FurnitureA
+    photoB: FurnitureB
   },
   {
     name: 'IBF Project',

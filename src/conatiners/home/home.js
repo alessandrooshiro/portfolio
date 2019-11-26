@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import styles from './home.module.css'
 import NavBar from '../../components/navBar/index'
 import About from '../../components/about/index'
-import Fade from 'react-reveal/Fade'
 import Projects from '../../components/projects/index'
 import Contact from '../../components/contact/index'
 
