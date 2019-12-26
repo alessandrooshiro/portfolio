@@ -18,7 +18,7 @@ class ShowResults extends Component {
                 <NavBar />
                 <div className={styles.contentContainer}>
                     <span className={styles.heroText}>
-                        Hello! I'm Alessandro. <br />A Brazilian Front-End Developer <br />and Graphic Desginer,<br /> currently based in Barcelona.<br />
+                        Hello! I'm Alessandro. <br />A Brazilian Front-End Developer <br />and Graphic Designer,<br /> currently based in Barcelona.<br />
                     </span>
                     <button
                         className={styles.scrollButton}

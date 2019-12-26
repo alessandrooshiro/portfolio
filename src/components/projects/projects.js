@@ -4,20 +4,13 @@ import RenatoA from '../../images/Renato1.png'
 import RenatoB from '../../images/Renato2.png'
 import FauA from '../../images/fau1.png'
 import FauB from '../../images/fau2.png'
-import FurnitureA from '../../images/furniture1.png'
-import FurnitureB from '../../images/furniture1.png'
+import TexturesA from '../../images/textures1.png'
+import TexturesB from '../../images/textures2.png'
 import IBFA from '../../images/IBF1.png'
 import IBFB from '../../images/IBF2.png'
 
 
 const projects = [
-  {
-    name: 'Real2U',
-    smallDescription: "Website project for  Real2U, an augmented reality focused startup. I was in charge of creating both the company's website and a dashboard for clients and admin use.",
-    link: 'https://www.real2u.com.br',
-    photoA: Real2uA,
-    photoB: Real2uB
-  },
   {
     name: 'Renato Cobra',
     smallDescription: "Renato Cobra developed the Cobra Method, focused in increasing the student's performance. I participated in the development of his website as front-end developer and desginer.",
@@ -26,18 +19,18 @@ const projects = [
     photoB: RenatoB
   },
   {
-    name: 'FauUsp',
-    smallDescription: "Website redesign project for the Faculty of Architecture and Urbanism of the University of São Paulo (FAUUSP). Not published.",
-    link: null,
-    photoA: FauA,
-    photoB: FauB
+    name: 'OpenTextures.io',
+    smallDescription: "OpenTextures.io is an oline single page aplication to help tech artists to find the perfect 3D Texture for their models.",
+    link: 'http://www.opentextures.io',
+    photoA: TexturesA,
+    photoB: TexturesB
   },
   {
-    name: 'Movel2U',
-    smallDescription: "E-commerce mobile app, focused on the selling of furniture displaying (using Apple's ARKit) the products in Augmented Reality. I participated in this project as the lead UI/UX Designer.",
-    link: null,
-    photoA: FurnitureA,
-    photoB: FurnitureB
+    name: 'Real2U',
+    smallDescription: "Website project for  Real2U, an augmented reality focused startup. I was in charge of creating both the company's website and a dashboard for clients and admin use.",
+    link: 'https://www.real2u.com.br',
+    photoA: Real2uA,
+    photoB: Real2uB
   },
   {
     name: 'IBF Project',
@@ -45,6 +38,13 @@ const projects = [
     link: 'http://www.internetbalancingformula.com/',
     photoA: IBFA,
     photoB: IBFB
+  },
+  {
+    name: 'FauUsp',
+    smallDescription: "Website redesign project for the Faculty of Architecture and Urbanism of the University of São Paulo (FAUUSP). Not published.",
+    link: null,
+    photoA: FauA,
+    photoB: FauB
   }
 ]
 
