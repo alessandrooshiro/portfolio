@@ -20,7 +20,7 @@ const projects = [
   },
   {
     name: 'OpenTextures.io',
-    smallDescription: "OpenTextures.io is an oline single page aplication to help tech artists to find the perfect 3D Texture for their models.",
+    smallDescription: "OpenTextures.io is an online single page application to help tech artists find the perfect 3D Texture for their models. I was responsible for the design and front-end development of the project.",
     link: 'http://www.opentextures.io',
     photoA: TexturesA,
     photoB: TexturesB
