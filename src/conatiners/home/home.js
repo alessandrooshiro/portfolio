@@ -6,31 +6,68 @@ import Projects from '../../components/projects/index'
 import Contact from '../../components/contact/index'
 
 
+
 class ShowResults extends Component {
 
+    state = {
+        mouseX: '100px',
+        mouseY: '100px',
+        isHover: false,
+        isProjectOpen: false
+    }
+
     render() {
+
+        let cursorStyle = {
+            left: this.state.mouseX - 25,
+            top: this.state.mouseY - 25
+        };
+
         return (
-            <div className={styles.mainContainer}>
+            <div
+                className={this.state.isProjectOpen ? styles.mainContainerExtended : styles.mainContainer}
+                onMouseMove={(e) => this.setState({ mouseX: e.pageX, mouseY: e.pageY })}
+            >
+                <div
+                    className={this.state.isHover ? styles.cursorHover : styles.cursor}
+                    style={cursorStyle}
+                >
+                    <div className={this.state.isHover ? styles.cursorChildHover : styles.cursorChild} />
+                </div>
                 <div className={styles.myName}>
                     <span>Alessandro</span><br />
                     <span>– Oshiro</span>
                 </div>
-                <NavBar />
+                <NavBar
+                    onHover={() => this.setState({ isHover: !this.state.isHover })}
+                    closeProject={() => this.setState({isProjectOpen: false})}
+                />
                 <div className={styles.contentContainer}>
                     <span className={styles.heroText}>
-                        Hello! I'm Alessandro. <br />A Brazilian Front-End Developer <br />and Graphic Designer,<br /> currently based in Barcelona.<br />
+                        Hello! I'm Alessandro. <br />A Brazilian Front-End Developer <br />and UX/UI Designer,<br /> currently based in São Paulo.<br />
                     </span>
                     <button
                         className={styles.scrollButton}
                         onClick={() => window.scrollTo(0, 900)}
                     >
-                        <span className={styles.moreInfo}>
+                        <span
+                            className={styles.moreInfo}
+                            onMouseLeave={() => this.setState({ isHover: !this.state.isHover })}
+                            onMouseEnter={() => this.setState({ isHover: !this.state.isHover })}
+                        >
                             v
                     </span>
                     </button>
                     <About />
-                    <Projects />
-                    <Contact />
+                    <Projects
+                        onHover={() => this.setState({ isHover: !this.state.isHover })}
+                        openProject={() =>
+                            this.setState({ isProjectOpen: !this.state.isProjectOpen })
+                        }
+                        isProjectOpen={this.state.isProjectOpen}
+                    />
+                    <Contact
+                        isProjectOpen={this.state.isProjectOpen} />
                 </div>
             </div >
         )

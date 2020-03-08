@@ -11,7 +11,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className={styles.projectsSection}>
+            <div className={this.props.isProjectOpen ? styles.projectsSectionExtended : styles.projectsSection}>
                 <span className={styles.sectionTitle}>
                     <Fade bottom>
                         Contact:
@@ -40,7 +40,7 @@ class Projects extends Component {
                         </span>
                         <span className={styles.detailAnswer}>
                             <Fade bottom>
-                                +34 605 511 325
+                                +55 11 97248-2324
                                 </Fade>
                         </span>
                     </div>

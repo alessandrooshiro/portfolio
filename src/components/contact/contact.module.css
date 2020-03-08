@@ -2,7 +2,15 @@
 
 .projectsSection {
     position: absolute;
-    top: 7500px;
+    top: 7100px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.projectsSectionExtended {
+    position: absolute;
+    top: 9900px;
     width: 100%;
     left: 50%;
     transform: translate(-50%);
@@ -16,7 +24,7 @@
     float: left;
     position: relative;
     top: 0px;
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: 'Merriweather', serif;
     font-weight: 700;
     font-size: 35px;
@@ -44,7 +52,7 @@
     float: left;
     position: relative;
     top: 0px;
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     font-size: 28px;
@@ -58,7 +66,7 @@
     float: left;
     position: relative;
     top: 40px;
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-size: 24px;

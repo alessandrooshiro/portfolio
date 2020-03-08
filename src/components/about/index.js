@@ -18,7 +18,7 @@ class About extends Component {
                     <span className={styles.detailAnswer}>
                         <Fade bottom>
                             My studies as an Architect and my training as a Front-End Developer made me capable to create web applications on my own, combining the fields of design and development. Focusing, primarily, on development of webapps with React.js.
-                                <br />I'm an undergrad architecture student at University of São Paulo, in Brazil, althought currently, due to acquiring a scholarship, I'm studying at Universitat Politècnica de Catalunya, in Barcelona.
+                                <br />My formation was coursed both in Universitat Universitat Politècnica de Catalunya, in Barcelona, Spain, and the Univeristy of São Paulo, in São Paulo, Brazil.
                                 </Fade>
                     </span>
                 </div>
@@ -30,7 +30,7 @@ class About extends Component {
                     </span>
                     <span className={styles.detailAnswer}>
                         <Fade bottom>
-                            I am currently working remotely as a UI/UX design and front-end development intern at Real2U, a startup company focused in Augmented Reality experiences.
+                            I am currently working on UI/UX design and front-end development intern at Real2U, a startup company focused in Augmented Reality and CGI.
                                 <br /> My experiences on the field varies from UX researching, designing and prototyping UI's and the Front-End development of web and mobile applications.
                                 </Fade>
                     </span>
@@ -43,7 +43,7 @@ class About extends Component {
                     </span>
                     <span className={styles.detailAnswer}>
                         <Fade bottom>
-                            Photoshop • Illustrator • inDesign • Autocad • Sketchup • Vray • Twinmotion • Sketch • InVision • Figma <br/> HTML • CSS • JavaScript • React
+                            Photoshop • Illustrator • inDesign • Autocad • Sketch • InVision • Figma <br/> HTML • CSS • JavaScript • React
                                 </Fade>
                     </span>
                 </div>

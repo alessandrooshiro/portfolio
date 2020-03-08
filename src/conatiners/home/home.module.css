@@ -7,8 +7,84 @@ html {
     top: 0;
     left: 0;
     width: calc( 100vw - 150px);
-    height: 8600px;
+    height: 8150px;
     background-color: #222;
+}
+
+.mainContainerExtended {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc( 100vw - 150px);
+    height: 11100px;
+    background-color: #222;
+}
+
+.cursor {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #f5b568;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    animation: mouseLeave 0.2s ease-in-out;
+}
+
+.cursorHover {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #f5b568;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    animation: mouseEnter 0.2s ease-in-out;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@keyframes mouseEnter {
+    0% {
+        transform: scale(1.66);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes mouseLeave {
+    0% {
+        transform: scale(0.6);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cursorChild {
+    position: absolute;
+    left: calc( 25px - 2.5px);
+    top: calc( 25px - 2.5px);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #f5b568;
+}
+
+.cursorChildHover {
+    position: absolute;
+    left: calc( 15px - 2.5px);
+    top: calc( 15px - 2.5px);
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #f5b568;
 }
 
 .moreInfo {
@@ -18,11 +94,15 @@ html {
     left: 50%;
     top: 850px;
     transform: translate(-50%);
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 50px;
     transform: scaleX(1.6);
+}
+
+.moreInfo:hover {
+    color: rgba(241, 227, 202, 0.8);
 }
 
 .myName {
@@ -30,7 +110,7 @@ html {
     position: absolute;
     top: 100px;
     left: 50px;
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: 'Merriweather', serif;
     font-weight: 300;
     font-size: 20px;
@@ -49,7 +129,7 @@ html {
     width: 100%;
     position: relative;
     top: 280px;
-    color: rgb(241, 227, 202);
+    color: #f5b568;
     font-family: 'Merriweather', serif;
     font-weight: 900;
     font-size: 70px;
@@ -61,7 +141,6 @@ html {
     border: none;
     padding: 0;
     font: inherit;
-    cursor: pointer;
     outline: inherit;
+    cursor: inherit;
 }
-
