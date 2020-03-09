@@ -7,17 +7,9 @@ html {
     top: 0;
     left: 0;
     width: calc( 100vw - 150px);
-    height: 8150px;
+    height: auto;
     background-color: #222;
-}
-
-.mainContainerExtended {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc( 100vw - 150px);
-    height: 11100px;
-    background-color: #222;
+    overflow: auto;
 }
 
 .cursor {
@@ -43,7 +35,7 @@ html {
     pointer-events: none;
     z-index: 10000;
     transform: scale(1);
-    animation: mouseEnter 0.2s ease-in-out;
+    animation: mouseEnter 0.5s infinite alternate ease-in-out;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -102,7 +94,8 @@ html {
 }
 
 .moreInfo:hover {
-    color: rgba(241, 227, 202, 0.8);
+    color: #f5b568;
+    opacity: 0.8;
 }
 
 .myName {
