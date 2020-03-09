@@ -4,8 +4,6 @@ import Fade from 'react-reveal/Fade'
 import params from './projects'
 import Item from './item'
 
-import linkIcon from '../../images/linkIcon.png'
-
 class Projects extends Component {
     render() {
         return (

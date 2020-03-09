@@ -3,25 +3,16 @@ html {
 }
 
 .mainContainer {
+    height: 7300px;
     position: absolute;
     top: 0;
     left: 0;
     width: calc( 100vw - 150px);
-    height: 8150px;
-    background-color: #222;
-}
-
-.mainContainerExtended {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc( 100vw - 150px);
-    height: 11100px;
     background-color: #222;
 }
 
 .cursor {
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -34,7 +25,7 @@ html {
 }
 
 .cursorHover {
-    position: absolute;
+    position: fixed;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -43,7 +34,7 @@ html {
     pointer-events: none;
     z-index: 10000;
     transform: scale(1);
-    animation: mouseEnter 0.2s ease-in-out;
+    animation: mouseEnter 0.5s infinite alternate ease-in-out;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -52,7 +43,6 @@ html {
     0% {
         transform: scale(1.66);
     }
-
     100% {
         transform: scale(1);
     }
@@ -68,7 +58,7 @@ html {
 }
 
 .cursorChild {
-    position: absolute;
+    position: fixed;
     left: calc( 25px - 2.5px);
     top: calc( 25px - 2.5px);
     height: 5px;
@@ -78,7 +68,7 @@ html {
 }
 
 .cursorChildHover {
-    position: absolute;
+    position: fixed;
     left: calc( 15px - 2.5px);
     top: calc( 15px - 2.5px);
     height: 5px;
@@ -102,7 +92,8 @@ html {
 }
 
 .moreInfo:hover {
-    color: rgba(241, 227, 202, 0.8);
+    color: #f5b568;
+    opacity: 0.8;
 }
 
 .myName {
@@ -121,6 +112,8 @@ html {
     min-width: 1020px;
     max-width: 1800px;
     position: relative;
+    height: auto;
+    display: inline-block;
     left: 50%;
     transform: translate( -50%, 0);
 }
@@ -143,4 +136,10 @@ html {
     font: inherit;
     outline: inherit;
     cursor: inherit;
+}
+
+@media (min-width: 1700px) {
+    .mainContainer {
+        height: 8600px;
+    }
 }

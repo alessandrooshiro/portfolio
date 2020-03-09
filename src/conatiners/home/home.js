@@ -5,28 +5,25 @@ import About from '../../components/about/index'
 import Projects from '../../components/projects/index'
 import Contact from '../../components/contact/index'
 
-
-
 class ShowResults extends Component {
 
     state = {
         mouseX: '100px',
         mouseY: '100px',
         isHover: false,
-        isProjectOpen: false
     }
 
     render() {
 
         let cursorStyle = {
             left: this.state.mouseX - 25,
-            top: this.state.mouseY - 25
+            top: this.state.mouseY - 105
         };
 
         return (
             <div
-                className={this.state.isProjectOpen ? styles.mainContainerExtended : styles.mainContainer}
-                onMouseMove={(e) => this.setState({ mouseX: e.pageX, mouseY: e.pageY })}
+                className={styles.mainContainer}
+                onMouseMove={(e) => this.setState({ mouseX: e.screenX, mouseY: e.screenY })}
             >
                 <div
                     className={this.state.isHover ? styles.cursorHover : styles.cursor}
@@ -40,7 +37,6 @@ class ShowResults extends Component {
                 </div>
                 <NavBar
                     onHover={() => this.setState({ isHover: !this.state.isHover })}
-                    closeProject={() => this.setState({isProjectOpen: false})}
                 />
                 <div className={styles.contentContainer}>
                     <span className={styles.heroText}>
@@ -61,13 +57,8 @@ class ShowResults extends Component {
                     <About />
                     <Projects
                         onHover={() => this.setState({ isHover: !this.state.isHover })}
-                        openProject={() =>
-                            this.setState({ isProjectOpen: !this.state.isProjectOpen })
-                        }
-                        isProjectOpen={this.state.isProjectOpen}
                     />
-                    <Contact
-                        isProjectOpen={this.state.isProjectOpen} />
+                    <Contact />
                 </div>
             </div >
         )

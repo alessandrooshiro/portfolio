@@ -1,16 +1,9 @@
 /* /////////////////// */
 
 .projectsSection {
-    position: absolute;
-    top: 7100px;
-    width: 100%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.projectsSectionExtended {
-    position: absolute;
-    top: 9900px;
+    display: inline-block;
+    position: relative;
+    top: 950px;
     width: 100%;
     left: 50%;
     transform: translate(-50%);
@@ -74,7 +67,7 @@
 
 .profilePic {
     position: absolute;
-    width: 40%;
+    width: 30%;
     left: 40px;
     top: 150px;
 }

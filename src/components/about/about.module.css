@@ -1,6 +1,7 @@
 .detailSection {
-    position: absolute;
-    top: 1100px;
+    position: relative;
+    top: 800px;
+    height: 100%;
     width: 100%;
     left: 50%;
     transform: translate(-50%);
