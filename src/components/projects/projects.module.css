@@ -42,9 +42,12 @@
 
 .projectsSection {
     position: relative;
+    display: inline-block;
     top: 800px;
+    height: 10px;
     width: 100%;
     left: 50%;
+    height: 100%;
     transform: translate(-50%);
 }
 

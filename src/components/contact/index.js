@@ -11,7 +11,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className={this.props.isProjectOpen ? styles.projectsSectionExtended : styles.projectsSection}>
+            <div className={styles.projectsSection}>
                 <span className={styles.sectionTitle}>
                     <Fade bottom>
                         Contact:

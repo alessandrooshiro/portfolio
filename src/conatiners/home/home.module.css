@@ -3,17 +3,16 @@ html {
 }
 
 .mainContainer {
+    height: 7300px;
     position: absolute;
     top: 0;
     left: 0;
     width: calc( 100vw - 150px);
-    height: auto;
     background-color: #222;
-    overflow: auto;
 }
 
 .cursor {
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -26,7 +25,7 @@ html {
 }
 
 .cursorHover {
-    position: absolute;
+    position: fixed;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -44,7 +43,6 @@ html {
     0% {
         transform: scale(1.66);
     }
-
     100% {
         transform: scale(1);
     }
@@ -60,7 +58,7 @@ html {
 }
 
 .cursorChild {
-    position: absolute;
+    position: fixed;
     left: calc( 25px - 2.5px);
     top: calc( 25px - 2.5px);
     height: 5px;
@@ -70,7 +68,7 @@ html {
 }
 
 .cursorChildHover {
-    position: absolute;
+    position: fixed;
     left: calc( 15px - 2.5px);
     top: calc( 15px - 2.5px);
     height: 5px;
@@ -114,6 +112,8 @@ html {
     min-width: 1020px;
     max-width: 1800px;
     position: relative;
+    height: auto;
+    display: inline-block;
     left: 50%;
     transform: translate( -50%, 0);
 }
@@ -136,4 +136,10 @@ html {
     font: inherit;
     outline: inherit;
     cursor: inherit;
+}
+
+@media (min-width: 1700px) {
+    .mainContainer {
+        height: 8600px;
+    }
 }

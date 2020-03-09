@@ -17,13 +17,13 @@ class ShowResults extends Component {
 
         let cursorStyle = {
             left: this.state.mouseX - 25,
-            top: this.state.mouseY - 25
+            top: this.state.mouseY - 105
         };
 
         return (
             <div
                 className={styles.mainContainer}
-                onMouseMove={(e) => this.setState({ mouseX: e.pageX, mouseY: e.pageY })}
+                onMouseMove={(e) => this.setState({ mouseX: e.screenX, mouseY: e.screenY })}
             >
                 <div
                     className={this.state.isHover ? styles.cursorHover : styles.cursor}
