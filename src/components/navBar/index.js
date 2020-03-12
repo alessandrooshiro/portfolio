@@ -59,7 +59,7 @@ class NavBar extends Component {
                             onMouseEnter={this.props.onHover}
                             onMouseLeave={this.props.onHover}
                             className={styles.menuItem}
-                            onClick={() => window.scrollTo({ left: 0, top: 90000 })}
+                            onClick={() => window.scrollTo(0, 9000)}
                         >
                             Contact
                         </li>

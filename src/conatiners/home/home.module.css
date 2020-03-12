@@ -11,6 +11,15 @@ html {
     background-color: #222;
 }
 
+.mainContainerExtended {
+    height: 7300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc( 100vw - 150px);
+    background-color: #222;
+}
+
 .cursor {
     position: fixed;
     height: 50px;
@@ -140,6 +149,6 @@ html {
 
 @media (min-width: 1700px) {
     .mainContainer {
-        height: 8600px;
+        height: 8900px;
     }
 }

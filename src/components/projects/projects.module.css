@@ -137,6 +137,7 @@
     position: relative;
     left: 0;
     top: 40px;
+    animation: moveImage 6s ease-in-out;
 }
 
 .projectImage1Extended {
@@ -145,15 +146,15 @@
     position: relative;
     left: 0;
     top: 30px;
-    animation: moveImage 0.6s ease-in-out;
+    animation: moveImage 6s ease-in-out;
 }
 
 @keyframes moveImage {
     0% {
-        top: 0px;
+        transform: scale(1,2244897959);
     }
     100% {
-        top: 240px
+        transform: scale(1);
     }
 }
 

@@ -16,8 +16,8 @@ class ShowResults extends Component {
     render() {
 
         let cursorStyle = {
-            left: this.state.mouseX - 25,
-            top: this.state.mouseY - 105
+            left: this.state.mouseX - 28,
+            top: this.state.mouseY - 130
         };
 
         return (
