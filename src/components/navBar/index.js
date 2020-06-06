@@ -1,71 +1,31 @@
 import React, { Component } from 'react'
-import styles from './navbar.module.css'
+import './navbar.css'
+
+const items = [
+    'Contact'
+]
 
 class NavBar extends Component {
 
+    state = {
+    }
+
     render() {
+
         return (
-            <div className={styles.mainContainer}>
-                <div className={styles.bar} />
-                <div className={styles.logoContainer}>
-                    <ul style={{ listStyleType: 'none' }}>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                        >
-                            <a href={'https://github.com/alessandrooshiro'} target="_blank" rel="noopener noreferrer" className={styles.link}>
-                                Github
-                            </a>
-                        </li>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                        >
-                            <a href={'https://www.linkedin.com/in/alessandro-oshiro-39226b172/'} target="_blank" rel="noopener noreferrer" className={styles.link}>
-                                Linkedin
-                            </a>
-                        </li>
-                    </ul>
+            <div className="navbar-container">
+                <button className="logo" onClick={() => window.scrollTo(0, 0)}>
+                    Alessandro<br />
+                    – Oshiro
+                    </button>
+                <div className="navbar-items">
+                    {items.map((item) => (
+                        <button className="navbar-button" onClick={() => window.scrollTo(0, 10000)}>
+                            {item}
+                        </button>
+                    ))}
                 </div>
-                <div className={styles.menuContainer}>
-                    <ul style={{ listStyleType: 'none' }} onClick={this.props.closeProject}>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                            onClick={() => window.scrollTo(0, 0)}
-                        >
-                            Top
-                        </li>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                            onClick={() => window.scrollTo(0, 1000)}
-                        >
-                            About
-                        </li>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                            onClick={() => window.scrollTo(0, 2250)}
-                        >
-                            Projects
-                        </li>
-                        <li
-                            onMouseEnter={this.props.onHover}
-                            onMouseLeave={this.props.onHover}
-                            className={styles.menuItem}
-                            onClick={() => window.scrollTo(0, 9000)}
-                        >
-                            Contact
-                        </li>
-                    </ul>
-                </div>
-            </div >
+            </div>
         )
     }
 }

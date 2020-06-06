@@ -1,48 +1,22 @@
 import React, { Component } from 'react'
-import styles from './contact.module.css'
-import Fade from 'react-reveal/Fade'
-import pic from '../../images/profile-pic.jpg'
+import './contact.css'
 
-class Projects extends Component {
-
-    state = {
-        isHoveredImage: false
-    }
+class Contact extends Component {
 
     render() {
-        return (
-            <div className={styles.projectsSection}>
-                <span className={styles.sectionTitle}>
-                    <Fade bottom>
-                        Contact:
-                            </Fade>
-                </span>
 
-                <Fade bottom>
-                    <img src={pic} className={styles.profilePic} alt='profile pic'/>
-                </Fade>
-                <div className={styles.detailSection}>
-                    <div className={styles.detailDiv}>
-                        <span className={styles.detailQuestion}>
-                            <Fade bottom>
-                                <strong>Email:</strong>
-                            </Fade>
-                        </span>
-                        <span className={styles.detailAnswer}>
-                            <Fade bottom>
-                                alessandro.oshiro@usp.br
-                                </Fade>
-                        </span>
-                        <span className={styles.detailQuestion}>
-                            <Fade bottom>
-                                <strong>Phone:</strong>
-                            </Fade>
-                        </span>
-                        <span className={styles.detailAnswer}>
-                            <Fade bottom>
-                                +55 11 97248-2324
-                                </Fade>
-                        </span>
+        return (
+            <div className="contact-container">
+                <button className="logo" onClick={() => window.scrollTo(0, 0)}>
+                    Alessandro<br />
+                – Oshiro
+                </button>
+                <div className="contact-items">
+                    <div className="contact-info">
+                        alessandro.oshiro@usp.br
+                    </div>
+                    <div className="contact-info">
+                        +55 11 97248-2324
                     </div>
                 </div>
             </div>
@@ -50,4 +24,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects
+export default Contact
