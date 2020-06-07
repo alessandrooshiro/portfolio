@@ -12,7 +12,7 @@ class About extends Component {
             <div className="about-container">
                     <div className="about-left">
                         <div className="about-title">Who am I:</div>
-                        <div className="about-paragraph">Hi! My name is Alessandro Oshiro, a creative developer and UX/UI designer, based in São Paulo, Brazil. I work as a UX/UI Designer at Real2U, an augmented reality and CGI startup. I am an Architectural Design student at University of São Paulo and Universitat Politècnica de Catalunya.</div>
+                        <div className="about-paragraph">Hi! My name is <span className="highlight">Alessandro Oshiro</span>, a creative developer and UX/UI designer, based in São Paulo, Brazil. I work as a UX/UI Designer at Real2U, an augmented reality and CGI startup. I am an Architectural Design student at University of São Paulo and Universitat Politècnica de Catalunya.</div>
                     </div>
                     <div className="about-left">
                         <div className="about-title">What do I seek:</div>

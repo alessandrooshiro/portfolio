@@ -5,17 +5,20 @@ import {
     Route
 } from "react-router-dom";
 import Home from "./conatiners/home/home"
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Routes() {
     return (
-        <Router>
-            {/* A <Switch> looks through its children <Route>s and
+        <ParallaxProvider>
+            <Router>
+                {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-            <Switch>
-                <Route path="/">
-                    <Home />
-                </Route>
-            </Switch>
-        </Router>
+                <Switch>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </Router>
+        </ParallaxProvider>
     );
 }

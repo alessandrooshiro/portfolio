@@ -30,6 +30,18 @@
     margin-left: 20px;
 }
 
+.contact-social {
+    margin-left: 20px;
+    background: none;
+    padding: 0;
+    border: none;
+    width: 30px;
+}
+
+.contact-social img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 1000px) {
     .contact-container {
         margin-top: 50px;
@@ -45,5 +57,9 @@
     .contact-info {
         margin-top: 10px;
         margin-left: 0px;
+    }
+    .contact-social {
+        margin-left: 0px;
+        margin-top: 10px;
     }
 }
