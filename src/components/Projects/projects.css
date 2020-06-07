@@ -15,7 +15,7 @@
 
 .projects-title {
     font-size: 16px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 
 .projects-image1 {
@@ -24,10 +24,15 @@
     height: 45vw;
     margin-bottom: 60px;
     overflow: hidden;
+    transition: 1s;
+}
+
+.projects-image1:hover {
+    transform: scale(0.98);
 }
 
 .projects-image1 img {
-    transition: 5s;
+    transition: 1s;
 }
 
 .projects-image1 img:hover {
@@ -65,7 +70,7 @@
 }
 
 .projects-image2 img {
-    transition: 5s;
+    transition: 1s;
 }
 
 .projects-image2 img:hover {
