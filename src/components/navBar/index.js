@@ -42,7 +42,7 @@ class NavBar extends Component {
         return (
             <div className="navbar-container">
                 <button className="logo" onClick={() => window.scrollTo(0, 0)}>
-                    <img src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
+                    <img alt="logo" src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
                 </button>
                 <div className="navbar-items">
                     {items.map((item) => (

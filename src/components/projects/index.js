@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import Fade from 'react-reveal/Fade';
 import './projects.css'
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax'
 
 import nrf1 from '../../images/renderfarm1@2x.png'
 import nrf2 from '../../images/renderfarm2@2x.png'
@@ -102,7 +101,7 @@ class Projects extends Component {
                                         <div className="projects-paragraph">
                                             {project.description}<br /><br />
                                             {project.participation}<br />
-                                            <a className="projects-link" href={project.link} target="_blank">{project.live}</a>
+                                            <a className="projects-link" href={project.link} rel="noopener noreferrer" target="_blank">{project.live}</a>
                                         </div>
                                         <div className="projects-image2">
                                             <img
@@ -138,7 +137,7 @@ class Projects extends Component {
                                             alt="render-farm1"
                                             style={{ width: '100%', height: '100%' }} />
                                     </div>
-                                    {/* <a className="projects-link" href={project.link} target="_blank">{project.live}</a> */}
+                                    {/* <a className="projects-link" href={project.link}  rel="noopener noreferrer" target="_blank">{project.live}</a> */}
                                     <div className="projects-image2">
                                         <img
                                             src={project.image3}

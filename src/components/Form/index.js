@@ -36,7 +36,7 @@ class Form extends Component {
 
         return (
             <div className="forms-container">
-                <div className="contact-message">{this.state.isEmailSent ? <span>Thankyou! I'll get back to you soon!</span> : <span>Let's work together!<br />Tell me your email and I'll reach you!</span>}</div>
+                <div className="contact-message">{this.state.isEmailSent ? <span>Thank you! I'll get back to you soon!</span> : <span>Let's work together!<br />Tell me your email and I'll reach you!</span>}</div>
                 <form className="contact-form" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST" style={this.state.isEmailSent ? { display: 'none' } : { display: 'inherit' }}>
                     <label className="input-label">
                         <input type="text" placeholder="john.doe@gmail.com" name="email" className="input" value={this.state.email} onChange={this.onEmailChange.bind(this)} />

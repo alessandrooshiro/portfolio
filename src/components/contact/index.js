@@ -40,7 +40,7 @@ class Contact extends Component {
         return (
             <div className="contact-container">
                 <button className="logo" onClick={() => window.scrollTo(0, 0)}>
-                    <img src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
+                    <img alt="logo" src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
                 </button>
                 <div className="contact-items">
                     <div className="contact-info">
@@ -50,13 +50,13 @@ class Contact extends Component {
                         +55 11 97248-2324
                     </div>
                     <button className="contact-social">
-                        <a href="https://github.com/alessandrooshiro" target="_blank">
-                            <img src={github} />
+                        <a href="https://github.com/alessandrooshiro" rel="noopener noreferrer" target="_blank">
+                            <img alt="github-logo" src={github} />
                         </a>
                     </button>
                     <button className="contact-social">
-                        <a href="https://www.linkedin.com/in/alessandro-oshiro/" target="_blank">
-                            <img src={linkedIn} />
+                        <a href="https://www.linkedin.com/in/alessandro-oshiro/" rel="noopener noreferrer" target="_blank">
+                            <img alt="linkedin-logo" src={linkedIn} />
                         </a>
                     </button>
                 </div>
