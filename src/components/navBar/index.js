@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './navbar.css'
+import { Link } from "react-router-dom";
 
 import logo from '../../images/logo@2x.png'
 
@@ -41,9 +42,11 @@ class NavBar extends Component {
 
         return (
             <div className="navbar-container">
-                <button className="logo" onClick={() => window.scrollTo(0, 0)}>
-                    <img alt="logo" src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
-                </button>
+                <Link to="/">
+                    <button className="logo" onClick={() => window.scrollTo(0, 0)}>
+                        <img alt="logo" src={logo} style={{ transform: `rotate(${this.state.theposition * 2160}deg)` }} />
+                    </button>
+                </Link>
                 <div className="navbar-items">
                     {items.map((item) => (
                         <button className="navbar-button" onClick={() => window.scrollTo(0, 10000)}>
