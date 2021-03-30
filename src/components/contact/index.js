@@ -44,7 +44,7 @@ class Contact extends Component {
                 </button>
                 <div className="contact-items">
                     <div className="contact-info">
-                        alessandro.oshiro@usp.br
+                        alessandro@oshiro.work
                     </div>
                     <div className="contact-info">
                         +55 11 97248-2324
