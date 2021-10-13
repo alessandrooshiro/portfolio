@@ -23,16 +23,17 @@
 }
 
 .about-left {
-    width: 50%;
+    width: 33%;
 }
 
 .about-title {
+    font-weight: 600;
     font-size: 16px;
     margin-bottom: 5px;
 }
 
 .about-paragraph {
-    width: 70%;
+    width: calc(100% - 40px);
     font-size: 20px;
 }
 
@@ -54,10 +55,16 @@
     }
     .about-left {
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
     .about-paragraph {
         width: 100%;
         font-size: 16px;
     }
+}
+
+.external-link {
+    text-decoration: underline;
+    color: #FFB100;
+    font-weight: inherit;
 }

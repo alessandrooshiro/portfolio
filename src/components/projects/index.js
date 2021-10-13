@@ -6,9 +6,9 @@ import { Parallax } from 'react-scroll-parallax'
 import nrf1 from '../../images/renderfarm1@2x.png'
 import nrf2 from '../../images/renderfarm2@2x.png'
 import nrf3 from '../../images/renderfarm3@2x.png'
-import real2u1 from '../../images/real2u1@2x.png'
-import real2u2 from '../../images/real2u2.png'
-import real2u3 from '../../images/real2u3.png'
+import ellux1 from '../../images/ellux.png'
+import ellux2 from '../../images/ellux-2.png'
+import ellux3 from '../../images/ellux-4.png'
 import reviewer2u1 from '../../images/reviewer2u.png'
 import reviewer2u2 from '../../images/reviewer2u2.png'
 import reviewer2u3 from '../../images/reviewer2u3.png'
@@ -19,28 +19,28 @@ const projects = [
         description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-savig way for clients to review the 3D Models devloped by the R2U modeling team.",
         participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and propotions. The images present the final design elected.",
         live: "Know more",
-        // link: "https://alessandro-oshiro.github.io/one-pager-gdc/",
+        link: "/reviewer2u",
         image1: reviewer2u1,
-        alt1: "notrenderfarm-landingpage",
+        alt1: "reviewer2u-main-screen",
         image2: reviewer2u2,
-        alt2: "notrenderfarm-jobs",
+        alt2: "reviewer2u-confirmation-screen",
         image3: reviewer2u3,
-        alt3: "notrenderfarm-projects",
+        alt3: "reviewer2u-comment-creation",
         parallaxXA: ['0px', '0px'],
         parallaxXB: ['200px', '-200px']
     },
     {
-        title: "R2U – Augmented Reality and CGI",
-        description: "Real2U is a Augmented Reality and CGI company. The website consists of a landing page where the companie's solutions, processes and cases are detailed to capture the attention of the user, and also separate pages for the solutions especifications.",
-        participation: "In this project I have led the content creation, layout design and development. I was responsible for wirefrming, prototyping and developing the entire website. I used React.js for this project, intenting on using existing components to facilitate implementation.",
-        // live: "The website is live here.",
-        // link: "https://www.real2u.com.br/",
-        image1: real2u1,
-        alt1: "real2u-landingpage",
-        image2: real2u2,
-        alt2: "real2u-landingpage2",
-        image3: real2u3,
-        alt3: "real2u-product-page",
+        title: "Electrolux – Self-service product return",
+        description: "Self-service system designed to help Electrolux's clients to solicitate the return of a damaged or defective product on the company's e-commerce.",
+        participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analysed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
+        live: "Know more",
+        link: "/ellux-return",
+        image1: ellux1,
+        alt1: "ellux-troca-selecionar-pedido",
+        image2: ellux2,
+        alt2: "ellux-troca-selecionar-problema",
+        image3: ellux3,
+        alt3: "ellux-troca-selecionar-produto",
         parallaxXA: ['0px', '0px'],
         parallaxXB: ['-200px', '200px']
     },
@@ -102,7 +102,7 @@ class Projects extends Component {
                                         <div className="projects-paragraph">
                                             {project.description}<br /><br />
                                             {project.participation}<br />
-                                            <Link onClick={() => window.scrollTo(0, 0)} className="projects-link" to="/reviewer2u">{project.live}</Link>
+                                            <Link onClick={() => window.scrollTo(0, 0)} className="projects-link" to={project.link}>{project.live}</Link>
                                         </div>
                                         <div className="projects-image2">
                                             <img

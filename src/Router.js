@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./conatiners/home/home"
 import Reviewer2u from "./conatiners/reviewer2u/reviewer2u"
+import ElluxTroca from "./conatiners/elluxTroca/elluxTroca"
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Routes() {
@@ -20,6 +21,9 @@ export default function Routes() {
                     </Route>
                     <Route exact path="/reviewer2u">
                         <Reviewer2u />
+                    </Route>
+                    <Route path="/ellux-return">
+                        <ElluxTroca />
                     </Route>
                 </Switch>
             </Router>
