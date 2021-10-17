@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d9834ad4.chunk.css",
-    "main.js": "/static/js/main.d813f9fa.chunk.js",
-    "main.js.map": "/static/js/main.d813f9fa.chunk.js.map",
+    "main.js": "/static/js/main.b24dbdfd.chunk.js",
+    "main.js.map": "/static/js/main.b24dbdfd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/js/2.45686a73.chunk.js": "/static/js/2.45686a73.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/ellux-3.936d6a34.png": "/static/media/ellux-3.936d6a34.png",
     "static/media/ellux-4.4b1d321e.png": "/static/media/ellux-4.4b1d321e.png",
     "static/media/ellux-5.375e6681.png": "/static/media/ellux-5.375e6681.png",
-    "static/media/ellux-6.46bc5d0e.png": "/static/media/ellux-6.46bc5d0e.png",
+    "static/media/ellux-9.14b00dc1.png": "/static/media/ellux-9.14b00dc1.png",
     "static/media/ellux.a1938aa6.png": "/static/media/ellux.a1938aa6.png",
     "static/media/logo@2x.88cc0dcf.png": "/static/media/logo@2x.88cc0dcf.png",
     "static/media/renderfarm1@2x.479b9d95.png": "/static/media/renderfarm1@2x.479b9d95.png",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.45686a73.chunk.js",
     "static/css/main.d9834ad4.chunk.css",
-    "static/js/main.d813f9fa.chunk.js"
+    "static/js/main.b24dbdfd.chunk.js"
   ]
 }
