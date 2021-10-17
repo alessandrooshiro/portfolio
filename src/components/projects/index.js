@@ -46,10 +46,8 @@ const projects = [
     },
     {
         title: "(NOT) Render Farm",
-        description: "(NOT) Render Farm is a web plataform for cloud rendering of 3D scenes. The website consists of a one-pager, explaining the concept of the company and it's product and also a Console for the creation and managment of computer based images.",
-        participation: "In this project I participated both in the concept and development stages. Participated in the product creation, wire-framing, user testing and final layout adjustments.",
-        // live: "The website is live here.",
-        // link: "https://notrenderfarm.com/",
+        description: "(NOT) Render Farm is a web plataform for cloud rendering of 3D scenes, created by R2U. The website consists of a one-pager, explaining the concept of the company and it's product and also a Console for the creation and managment of computer based images.",
+        participation: "In this project I participated both in the concept and development stages. Participated in the product creation, wireframing, user testing and final layout adjustments.",
         image1: nrf1,
         alt1: "notrenderfarm-landingpage",
         image2: nrf2,
@@ -138,7 +136,6 @@ class Projects extends Component {
                                             alt="render-farm1"
                                             style={{ width: '100%', height: '100%' }} />
                                     </div>
-                                    {/* <a className="projects-link" href={project.link}  rel="noopener noreferrer" target="_blank">{project.live}</a> */}
                                     <div className="projects-image2">
                                         <img
                                             src={project.image3}
@@ -146,7 +143,7 @@ class Projects extends Component {
                                             style={{ width: '100%', height: '100%' }} />
                                     </div >
                                 </div>
-                                <Link onClick={() => window.scrollTo(0, 0)} className="projects-link" to="/reviewer2u">{project.live}</Link>
+                                <Link onClick={() => window.scrollTo(0, 0)} className="projects-link" to={project.link}>{project.live}</Link>
                             </>
                         ))}
                     </div>

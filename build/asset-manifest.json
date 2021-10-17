@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5da7c23f.chunk.css",
-    "main.js": "/static/js/main.935fe9ff.chunk.js",
-    "main.js.map": "/static/js/main.935fe9ff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
-    "static/js/2.5252b56f.chunk.js": "/static/js/2.5252b56f.chunk.js",
-    "static/js/2.5252b56f.chunk.js.map": "/static/js/2.5252b56f.chunk.js.map",
+    "main.css": "/static/css/main.d9834ad4.chunk.css",
+    "main.js": "/static/js/main.b24dbdfd.chunk.js",
+    "main.js.map": "/static/js/main.b24dbdfd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/js/2.45686a73.chunk.js": "/static/js/2.45686a73.chunk.js",
+    "static/js/2.45686a73.chunk.js.map": "/static/js/2.45686a73.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5da7c23f.chunk.css.map": "/static/css/main.5da7c23f.chunk.css.map",
-    "static/js/2.5252b56f.chunk.js.LICENSE.txt": "/static/js/2.5252b56f.chunk.js.LICENSE.txt",
+    "static/css/main.d9834ad4.chunk.css.map": "/static/css/main.d9834ad4.chunk.css.map",
+    "static/js/2.45686a73.chunk.js.LICENSE.txt": "/static/js/2.45686a73.chunk.js.LICENSE.txt",
     "static/media/about.css": "/static/media/brush-stroke-banner-6.79808a67.svg",
     "static/media/ellux-1.849fa0d7.png": "/static/media/ellux-1.849fa0d7.png",
     "static/media/ellux-2.184af2f3.png": "/static/media/ellux-2.184af2f3.png",
     "static/media/ellux-3.936d6a34.png": "/static/media/ellux-3.936d6a34.png",
     "static/media/ellux-4.4b1d321e.png": "/static/media/ellux-4.4b1d321e.png",
     "static/media/ellux-5.375e6681.png": "/static/media/ellux-5.375e6681.png",
-    "static/media/ellux-6.46bc5d0e.png": "/static/media/ellux-6.46bc5d0e.png",
+    "static/media/ellux-9.14b00dc1.png": "/static/media/ellux-9.14b00dc1.png",
     "static/media/ellux.a1938aa6.png": "/static/media/ellux.a1938aa6.png",
     "static/media/logo@2x.88cc0dcf.png": "/static/media/logo@2x.88cc0dcf.png",
     "static/media/renderfarm1@2x.479b9d95.png": "/static/media/renderfarm1@2x.479b9d95.png",
@@ -31,9 +31,9 @@
     "static/media/reviewer2u7.5fe8f2fd.png": "/static/media/reviewer2u7.5fe8f2fd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fd7dc15.js",
-    "static/js/2.5252b56f.chunk.js",
-    "static/css/main.5da7c23f.chunk.css",
-    "static/js/main.935fe9ff.chunk.js"
+    "static/js/runtime-main.f027f2bf.js",
+    "static/js/2.45686a73.chunk.js",
+    "static/css/main.d9834ad4.chunk.css",
+    "static/js/main.b24dbdfd.chunk.js"
   ]
 }

@@ -16,7 +16,7 @@ class About extends Component {
                 </div>
                 <div className="about-left">
                     <div className="about-title">Work experience:</div>
-                    <div className="about-paragraph">I am currently working as a UX/UI Designer at <a className="external-link" href='https://acct.global/en/' target="_blank" >ACCT Global</a>, a Techonology Consultancy with offices in São Paulo, Barcelona and New York. Previously, I have worked as a UX/UI Design at <a className="external-link" href='https://r2u.io' target="_blank" >R2U.io</a> an augmented reality and CGI startup.<br /><br /></div>
+                    <div className="about-paragraph">I am currently working as a UX/UI Designer at <a className="external-link" href='https://acct.global/' target="_blank" rel="noreferrer">ACCT Global</a>, a Techonology Consultancy with offices in São Paulo, Barcelona and New York. Previously, I have worked as a UX/UI Design at <a className="external-link" href='https://r2u.io' target="_blank" rel="noreferrer" >R2U.io</a> an augmented reality and CGI startup.<br /><br /></div>
                 </div>
                 <div className="about-left">
                     <div className="about-title">Education:</div>
