@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d9834ad4.chunk.css",
-    "main.js": "/static/js/main.9c44c23d.chunk.js",
-    "main.js.map": "/static/js/main.9c44c23d.chunk.js.map",
+    "main.js": "/static/js/main.16d8ac51.chunk.js",
+    "main.js.map": "/static/js/main.16d8ac51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/js/2.428e36f5.chunk.js": "/static/js/2.428e36f5.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.d9834ad4.chunk.css.map": "/static/css/main.d9834ad4.chunk.css.map",
     "static/js/2.428e36f5.chunk.js.LICENSE.txt": "/static/js/2.428e36f5.chunk.js.LICENSE.txt",
     "static/media/PAE – Monitoramento de Aluno.0772c8d4.png": "/static/media/PAE – Monitoramento de Aluno.0772c8d4.png",
-    "static/media/PAE – Visão de turma.4964e836.png": "/static/media/PAE – Visão de turma.4964e836.png",
+    "static/media/PAE – Registro Atividade Aula.6922ab04.png": "/static/media/PAE – Registro Atividade Aula.6922ab04.png",
     "static/media/Plataforma mobile.adef430e.png": "/static/media/Plataforma mobile.adef430e.png",
     "static/media/blueprint-ilustrado-final.6259b758.jpg": "/static/media/blueprint-ilustrado-final.6259b758.jpg",
     "static/media/about.css": "/static/media/brush-stroke-banner-6.79808a67.svg",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.428e36f5.chunk.js",
     "static/css/main.d9834ad4.chunk.css",
-    "static/js/main.9c44c23d.chunk.js"
+    "static/js/main.16d8ac51.chunk.js"
   ]
 }
