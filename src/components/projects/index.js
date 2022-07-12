@@ -3,9 +3,9 @@ import './projects.css'
 import { Link } from "react-router-dom";
 import { Parallax } from 'react-scroll-parallax'
 
-import nrf1 from '../../images/renderfarm1@2x.png'
-import nrf2 from '../../images/renderfarm2@2x.png'
-import nrf3 from '../../images/renderfarm3@2x.png'
+import tfg1 from '../../images/PAE – Monitoramento de Aluno.png'
+import tfg2 from '../../images/Plataforma mobile.png'
+import tfg3 from '../../images/PAE – Registro Atividade Aula.png'
 import ellux1 from '../../images/ellux.png'
 import ellux2 from '../../images/ellux-2.png'
 import ellux3 from '../../images/ellux-4.png'
@@ -16,8 +16,8 @@ import reviewer2u3 from '../../images/reviewer2u3.png'
 const projects = [
     {
         title: "R2U | Product Revision Console",
-        description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-savig way for clients to review the 3D Models devloped by the R2U modeling team.",
-        participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and propotions. The images present the final design elected.",
+        description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-saving way for clients to review the 3D Models developed by the R2U modeling team.",
+        participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and proportions. The images present the final design elected.",
         live: "Know more",
         link: "/reviewer2u",
         image1: reviewer2u1,
@@ -31,8 +31,8 @@ const projects = [
     },
     {
         title: "Electrolux – Self-service product return",
-        description: "Self-service system designed to help Electrolux's clients to solicitate the return of a damaged or defective product on the company's e-commerce.",
-        participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analysed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
+        description: "Self-service system designed to help Electrolux's clients to request the return of a damaged or defective product on the company's e-commerce.",
+        participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analyzed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
         live: "Know more",
         link: "/ellux-return",
         image1: ellux1,
@@ -45,18 +45,20 @@ const projects = [
         parallaxXB: ['-200px', '200px']
     },
     {
-        title: "(NOT) Render Farm",
-        description: "(NOT) Render Farm is a web plataform for cloud rendering of 3D scenes, created by R2U. The website consists of a one-pager, explaining the concept of the company and it's product and also a Console for the creation and managment of computer based images.",
-        participation: "In this project I participated both in the concept and development stages. Participated in the product creation, wireframing, user testing and final layout adjustments.",
-        image1: nrf1,
+        title: "360 – School permanence service",
+        description: "360 ia a service designed to fight evasion in Brazilian public schools. The service is based on a digital platform that centers the student's educational data throughout the years, helping teachers analyze their performance, pain points and shape a more personalized education for the students.",
+        participation: "This project was conceived as a personal Service Design Graduation Thesis for the School of Architecture and Urbanism of the University of São Paulo. In it I conduct user research through interviews, designed personas, customer journeys, idealized the entire service and created all the wireframes and prototypes.",
+        live: "Know more",
+        link: "/360",
+        image1: tfg1,
         alt1: "notrenderfarm-landingpage",
-        image2: nrf2,
+        image2: tfg2,
         alt2: "notrenderfarm-jobs",
-        image3: nrf3,
+        image3: tfg3,
         alt3: "notrenderfarm-projects",
         parallaxXA: ['0px', '0px'],
-        parallaxXB: ['200px', '-200px']
-    }
+        parallaxXB: ['-200px', '200px']
+    },
 ]
 
 class Projects extends Component {
@@ -99,7 +101,7 @@ class Projects extends Component {
                                         </div>
                                         <div className="projects-paragraph">
                                             {project.description}<br /><br />
-                                            {project.participation}<br />
+                                            {project.participation}<br /><br />
                                             <Link onClick={() => window.scrollTo(0, 0)} className="projects-link" to={project.link}>{project.live}</Link>
                                         </div>
                                         <div className="projects-image2">

@@ -16,8 +16,8 @@ import image7 from '../../images/ellux-5.png'
 const ellux =
 {
     title: "Electrolux – Self-service product return",
-    description: "Self-service system designed to help Electrolux's clients to solicitate the return of a damaged or defective product on the company's e-commerce.",
-    participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analysed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
+    description: "Self-service system designed to help Electrolux's clients to request the return of a damaged or defective product on the company's e-commerce.",
+    participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analyzed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
     image1: image1,
     alt1: "1. Order selection",
     image2: image2,
@@ -42,7 +42,7 @@ class elluxTroca extends Component {
         return (
             <div>
                 <NavBar />
-                <ProjectPage project={ellux}/>
+                <ProjectPage project={ellux} />
                 <Form />
                 <Contact />
             </div >

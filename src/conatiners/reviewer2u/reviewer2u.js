@@ -17,8 +17,8 @@ import image7 from '../../images/reviewer2u4.png'
 const reviewer2u =
 {
     title: "R2U | Product Revision Console",
-    description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-savig way for clients to review the 3D Models devloped by the R2U modeling team.",
-    participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and propotions. The images present the final design elected.",
+    description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-saving way for clients to review the 3D Models developed by the R2U modeling team.",
+    participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and proportions. The images present the final design elected.",
     image1: image1,
     alt1: "1. 3D model reviwer",
     image2: image2,
@@ -41,7 +41,7 @@ class Reviewer2u extends Component {
         return (
             <div>
                 <NavBar />
-                <ProjectPage project={reviewer2u}/>
+                <ProjectPage project={reviewer2u} />
                 <Form />
                 <Contact />
             </div >

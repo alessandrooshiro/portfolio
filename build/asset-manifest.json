@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d9834ad4.chunk.css",
-    "main.js": "/static/js/main.b24dbdfd.chunk.js",
-    "main.js.map": "/static/js/main.b24dbdfd.chunk.js.map",
+    "main.js": "/static/js/main.16d8ac51.chunk.js",
+    "main.js.map": "/static/js/main.16d8ac51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
-    "static/js/2.45686a73.chunk.js": "/static/js/2.45686a73.chunk.js",
-    "static/js/2.45686a73.chunk.js.map": "/static/js/2.45686a73.chunk.js.map",
+    "static/js/2.428e36f5.chunk.js": "/static/js/2.428e36f5.chunk.js",
+    "static/js/2.428e36f5.chunk.js.map": "/static/js/2.428e36f5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.d9834ad4.chunk.css.map": "/static/css/main.d9834ad4.chunk.css.map",
-    "static/js/2.45686a73.chunk.js.LICENSE.txt": "/static/js/2.45686a73.chunk.js.LICENSE.txt",
+    "static/js/2.428e36f5.chunk.js.LICENSE.txt": "/static/js/2.428e36f5.chunk.js.LICENSE.txt",
+    "static/media/PAE – Monitoramento de Aluno.0772c8d4.png": "/static/media/PAE – Monitoramento de Aluno.0772c8d4.png",
+    "static/media/PAE – Registro Atividade Aula.6922ab04.png": "/static/media/PAE – Registro Atividade Aula.6922ab04.png",
+    "static/media/Plataforma mobile.adef430e.png": "/static/media/Plataforma mobile.adef430e.png",
+    "static/media/blueprint-ilustrado-final.6259b758.jpg": "/static/media/blueprint-ilustrado-final.6259b758.jpg",
     "static/media/about.css": "/static/media/brush-stroke-banner-6.79808a67.svg",
     "static/media/ellux-1.849fa0d7.png": "/static/media/ellux-1.849fa0d7.png",
     "static/media/ellux-2.184af2f3.png": "/static/media/ellux-2.184af2f3.png",
@@ -19,9 +23,9 @@
     "static/media/ellux-9.14b00dc1.png": "/static/media/ellux-9.14b00dc1.png",
     "static/media/ellux.a1938aa6.png": "/static/media/ellux.a1938aa6.png",
     "static/media/logo@2x.88cc0dcf.png": "/static/media/logo@2x.88cc0dcf.png",
-    "static/media/renderfarm1@2x.479b9d95.png": "/static/media/renderfarm1@2x.479b9d95.png",
-    "static/media/renderfarm2@2x.3d3bbbe2.png": "/static/media/renderfarm2@2x.3d3bbbe2.png",
-    "static/media/renderfarm3@2x.584e4a15.png": "/static/media/renderfarm3@2x.584e4a15.png",
+    "static/media/personas.05c8c9f8.png": "/static/media/personas.05c8c9f8.png",
+    "static/media/personas2.d5309206.png": "/static/media/personas2.d5309206.png",
+    "static/media/plataforma mobile 2.d3509404.png": "/static/media/plataforma mobile 2.d3509404.png",
     "static/media/reviewer2u.992a04db.png": "/static/media/reviewer2u.992a04db.png",
     "static/media/reviewer2u2.02be4f15.png": "/static/media/reviewer2u2.02be4f15.png",
     "static/media/reviewer2u3.f595b179.png": "/static/media/reviewer2u3.f595b179.png",
@@ -32,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
-    "static/js/2.45686a73.chunk.js",
+    "static/js/2.428e36f5.chunk.js",
     "static/css/main.d9834ad4.chunk.css",
-    "static/js/main.b24dbdfd.chunk.js"
+    "static/js/main.16d8ac51.chunk.js"
   ]
 }
