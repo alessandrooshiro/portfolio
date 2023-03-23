@@ -12,8 +12,41 @@ import ellux3 from '../../images/ellux-4.png'
 import reviewer2u1 from '../../images/reviewer2u.png'
 import reviewer2u2 from '../../images/reviewer2u2.png'
 import reviewer2u3 from '../../images/reviewer2u3.png'
+import txb1 from '../../images/GSTXB_CUI-dashboard.png'
+import txb2 from '../../images/GSTXB_CUI-payment_summary.png'
+import txb3 from '../../images/GSTXB_CSP-dashboard.png'
 
 const projects = [
+    {
+        title: "Goldman Sachs | Transaction Banking Platform (TxB)",
+        description: "TxB was designed with the goal to disrupt the traditional banking system. It is a secure, nimble and easy to use platform for minor and major corporations to create, manage and analize their transactions.", 
+        participation: "In this project, I have lead many innitiatives from start to finish, on which I had the opportunity to work on all phases of a design process on multiple occasions. That includes the conduction and consolidation user research, the design of low and high fidelity wireframes and prototypes, the preparation of development handoff and design documentation and the presentation of multiple features and results to clients.",
+        live: "Know more",
+        link: "/txb",
+        image1: txb1,
+        alt1: "txb-cui-dashboard",
+        image2: txb2,
+        alt2: "txb-payment-summary",
+        image3: txb3,
+        alt3: "txb-csp-dashboard",
+        parallaxXA: ['0px', '0px'],
+        parallaxXB: ['200px', '-200px']
+    },
+    {
+        title: "360 – School permanence service",
+        description: "360 ia a service designed to fight evasion in Brazilian public schools. The service is based on a digital platform that centers the student's educational data throughout the years, helping teachers analyze their performance, pain points and shape a more personalized education for the students.",
+        participation: "This project was conceived as a personal Service Design Graduation Thesis for the School of Architecture and Urbanism of the University of São Paulo. In it I conduct user research through interviews, designed personas, customer journeys, idealized the entire service and created all the wireframes and prototypes.",
+        live: "Know more",
+        link: "/360",
+        image1: tfg1,
+        alt1: "notrenderfarm-landingpage",
+        image2: tfg2,
+        alt2: "notrenderfarm-jobs",
+        image3: tfg3,
+        alt3: "notrenderfarm-projects",
+        parallaxXA: ['0px', '0px'],
+        parallaxXB: ['-200px', '200px']
+    },
     {
         title: "R2U | Product Revision Console",
         description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-saving way for clients to review the 3D Models developed by the R2U modeling team.",
@@ -41,21 +74,6 @@ const projects = [
         alt2: "ellux-troca-selecionar-problema",
         image3: ellux3,
         alt3: "ellux-troca-selecionar-produto",
-        parallaxXA: ['0px', '0px'],
-        parallaxXB: ['-200px', '200px']
-    },
-    {
-        title: "360 – School permanence service",
-        description: "360 ia a service designed to fight evasion in Brazilian public schools. The service is based on a digital platform that centers the student's educational data throughout the years, helping teachers analyze their performance, pain points and shape a more personalized education for the students.",
-        participation: "This project was conceived as a personal Service Design Graduation Thesis for the School of Architecture and Urbanism of the University of São Paulo. In it I conduct user research through interviews, designed personas, customer journeys, idealized the entire service and created all the wireframes and prototypes.",
-        live: "Know more",
-        link: "/360",
-        image1: tfg1,
-        alt1: "notrenderfarm-landingpage",
-        image2: tfg2,
-        alt2: "notrenderfarm-jobs",
-        image3: tfg3,
-        alt3: "notrenderfarm-projects",
         parallaxXA: ['0px', '0px'],
         parallaxXB: ['-200px', '200px']
     },

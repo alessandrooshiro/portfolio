@@ -22,7 +22,7 @@
     margin-left: 10%;
     width: 80%;
     height: 45vw;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
     overflow: hidden;
     transition: 1s;
 }
@@ -51,14 +51,14 @@
 .projects-image2 {
     width: calc( 62.5% - 20px);
     height: calc( 0.5625 * (40vw - 20px));
-    margin-bottom: 150px;
+    margin-bottom: 240px;
     z-index: 1;
     overflow: hidden;
 }
 
 .projects-paragraph {
     width: calc( 62.5% - 20px);
-    margin-bottom: 150px;
+    margin-bottom: 240px;
     z-index: 1;
     overflow: hidden;
     padding: 20px;

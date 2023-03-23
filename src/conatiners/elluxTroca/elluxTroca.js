@@ -19,21 +19,12 @@ const ellux =
     description: "Self-service system designed to help Electrolux's clients to request the return of a damaged or defective product on the company's e-commerce.",
     participation: "I was responsible for this product's research, ideation, wireframing and prototyping phases. Conducted user surveys and analyzed user data, created the user journey and product concepts and draw the wireframes and high fidelity prototypes.",
     image1: image1,
-    alt1: "1. Order selection",
     image2: image2,
-    alt2: "2. Simplified user journey",
-    // image2: image2,
-    // alt2: "2. Product selection",
     image3: image3,
-    alt3: "3. Product selection",
     image4: image4,
-    alt4: "4. Return motive selection",
     image5: image5,
-    alt5: "5. Return option selection",
     image6: image6,
-    alt6: "6. New product selection",
     image7: image7,
-    alt7: "7. Request confirmation",
 }
 
 class elluxTroca extends Component {

@@ -8,6 +8,7 @@ import Home from "./conatiners/home/home"
 import Reviewer2u from "./conatiners/reviewer2u/reviewer2u"
 import ElluxTroca from "./conatiners/elluxTroca/elluxTroca"
 import Tfg360 from "./conatiners/tfg360/tfg360"
+import TxB from "./conatiners/txb/txb"
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Routes() {
@@ -28,6 +29,9 @@ export default function Routes() {
                     </Route>
                     <Route path="/360">
                         <Tfg360 />
+                    </Route>
+                    <Route path="/txb">
+                        <TxB />
                     </Route>
                 </Switch>
             </Router>

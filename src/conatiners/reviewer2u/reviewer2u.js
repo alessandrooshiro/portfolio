@@ -20,19 +20,12 @@ const reviewer2u =
     description: "Desktop web application designed with the purpose of being a intuitive, easy to use and time-saving way for clients to review the 3D Models developed by the R2U modeling team.",
     participation: "In this project, I conducted a primary research fase with customers and 3D Artists to understand both ends of the whole process. Afterwords, I have designed multiple wireframes, making use of various grids, layouts and proportions. The images present the final design elected.",
     image1: image1,
-    alt1: "1. 3D model reviwer",
     image2: image2,
-    alt2: "2. Simplified user journey",
     image3: image3,
-    alt3: "3. Review confirmation",
     image4: image4,
-    alt4: "4. Comment creation",
     image5: image5,
-    alt5: "5. 3D model analysis",
     image6: image6,
-    alt6: "6. 3D material editing feature",
     image7: image7,
-    alt7: "7. Design handoff for development",
 }
 
 class Reviewer2u extends Component {
