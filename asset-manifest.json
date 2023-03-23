@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9834ad4.chunk.css",
-    "main.js": "/static/js/main.781cbea9.chunk.js",
-    "main.js.map": "/static/js/main.781cbea9.chunk.js.map",
+    "main.css": "/static/css/main.a882e0b7.chunk.css",
+    "main.js": "/static/js/main.e62fb80d.chunk.js",
+    "main.js.map": "/static/js/main.e62fb80d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
-    "static/js/2.428e36f5.chunk.js": "/static/js/2.428e36f5.chunk.js",
-    "static/js/2.428e36f5.chunk.js.map": "/static/js/2.428e36f5.chunk.js.map",
+    "static/js/2.3a5c807f.chunk.js": "/static/js/2.3a5c807f.chunk.js",
+    "static/js/2.3a5c807f.chunk.js.map": "/static/js/2.3a5c807f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d9834ad4.chunk.css.map": "/static/css/main.d9834ad4.chunk.css.map",
-    "static/js/2.428e36f5.chunk.js.LICENSE.txt": "/static/js/2.428e36f5.chunk.js.LICENSE.txt",
+    "static/css/main.a882e0b7.chunk.css.map": "/static/css/main.a882e0b7.chunk.css.map",
+    "static/js/2.3a5c807f.chunk.js.LICENSE.txt": "/static/js/2.3a5c807f.chunk.js.LICENSE.txt",
+    "static/media/GSTXB_CSP-DL-Notif..eca13964.png": "/static/media/GSTXB_CSP-DL-Notif..eca13964.png",
+    "static/media/GSTXB_CSP-dashboard.1974956c.png": "/static/media/GSTXB_CSP-dashboard.1974956c.png",
+    "static/media/GSTXB_CUI-account_summary.e66fdb5d.png": "/static/media/GSTXB_CUI-account_summary.e66fdb5d.png",
+    "static/media/GSTXB_CUI-dashboard.1e209163.png": "/static/media/GSTXB_CUI-dashboard.1e209163.png",
+    "static/media/GSTXB_CUI-localization.433c4b90.png": "/static/media/GSTXB_CUI-localization.433c4b90.png",
+    "static/media/GSTXB_CUI-payment_summary.bf593b90.png": "/static/media/GSTXB_CUI-payment_summary.bf593b90.png",
+    "static/media/GSTXB_pymt_errors.631a5fc7.png": "/static/media/GSTXB_pymt_errors.631a5fc7.png",
     "static/media/PAE – Monitoramento de Aluno.0772c8d4.png": "/static/media/PAE – Monitoramento de Aluno.0772c8d4.png",
     "static/media/PAE – Registro Atividade Aula.6922ab04.png": "/static/media/PAE – Registro Atividade Aula.6922ab04.png",
-    "static/media/Plataforma mobile 2.adef430e.png": "/static/media/Plataforma mobile 2.adef430e.png",
     "static/media/Plataforma mobile.adef430e.png": "/static/media/Plataforma mobile.adef430e.png",
     "static/media/blueprint-ilustrado-final.6259b758.jpg": "/static/media/blueprint-ilustrado-final.6259b758.jpg",
     "static/media/about.css": "/static/media/brush-stroke-banner-6.79808a67.svg",
@@ -26,18 +32,20 @@
     "static/media/logo@2x.88cc0dcf.png": "/static/media/logo@2x.88cc0dcf.png",
     "static/media/personas.05c8c9f8.png": "/static/media/personas.05c8c9f8.png",
     "static/media/personas2.d5309206.png": "/static/media/personas2.d5309206.png",
+    "static/media/plataforma mobile 3.d3509404.png": "/static/media/plataforma mobile 3.d3509404.png",
     "static/media/reviewer2u.992a04db.png": "/static/media/reviewer2u.992a04db.png",
     "static/media/reviewer2u2.02be4f15.png": "/static/media/reviewer2u2.02be4f15.png",
     "static/media/reviewer2u3.f595b179.png": "/static/media/reviewer2u3.f595b179.png",
     "static/media/reviewer2u4.3f1bc81c.png": "/static/media/reviewer2u4.3f1bc81c.png",
     "static/media/reviewer2u5.a827d3a7.png": "/static/media/reviewer2u5.a827d3a7.png",
     "static/media/reviewer2u6.68d6142c.png": "/static/media/reviewer2u6.68d6142c.png",
-    "static/media/reviewer2u7.5fe8f2fd.png": "/static/media/reviewer2u7.5fe8f2fd.png"
+    "static/media/reviewer2u7.5fe8f2fd.png": "/static/media/reviewer2u7.5fe8f2fd.png",
+    "static/media/txb-collage.0fde7d91.png": "/static/media/txb-collage.0fde7d91.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
-    "static/js/2.428e36f5.chunk.js",
-    "static/css/main.d9834ad4.chunk.css",
-    "static/js/main.781cbea9.chunk.js"
+    "static/js/2.3a5c807f.chunk.js",
+    "static/css/main.a882e0b7.chunk.css",
+    "static/js/main.e62fb80d.chunk.js"
   ]
 }
