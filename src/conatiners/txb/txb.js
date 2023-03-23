@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NavBar from '../../components/NavBar'
 import ProjectPage from '../../components/ProjectPage'
-// import Contact from '../../components/Contact'
+import Contact from '../../components/Contact'
 import Form from '../../components/Form'
 
 import image1 from '../../images/GSTXB_CUI-dashboard.png'
@@ -36,7 +36,7 @@ class tfg360 extends Component {
                 <NavBar />
                 <ProjectPage project={txb} />
                 <Form />
-                {/* <Contact /> */}
+                <Contact />
             </div >
         )
     }
