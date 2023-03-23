@@ -9,7 +9,7 @@ import image2 from '../../images/blueprint-ilustrado-final.jpg'
 import image3 from '../../images/personas.png'
 import image4 from '../../images/personas2.png'
 import image5 from '../../images/Plataforma mobile.png'
-import image6 from '../../images/plataforma mobile 2.png'
+import image6 from '../../images/Plataforma mobile 2.png'
 import image7 from '../../images/PAE – Registro Atividade Aula.png'
 
 
